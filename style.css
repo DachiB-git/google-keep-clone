@@ -116,7 +116,9 @@ body {
   width: 100%;
   outline: none;
 }
-
+.note-title {
+  margin-bottom: 0.5em;
+}
 .modal {
   pointer-events: none;
   position: fixed;

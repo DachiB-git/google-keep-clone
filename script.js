@@ -128,7 +128,7 @@ function openNote(target) {
     item.style.display = "block";
     item.style.pointerEvents = "auto";
   });
-  note.children[1].classList.toggle("selected");
+
   const rect = note.getBoundingClientRect();
   note.style.cursor = "default";
   note.style.height = `${note.offsetHeight}px`;
@@ -143,6 +143,7 @@ function openNote(target) {
   note.style.left = `${modal.clientWidth / 2 - note.offsetWidth}px`;
   note.style.backgroundColor = "#202124";
   modal.classList.toggle("shown");
+  note.children[1].classList.toggle("selected");
   function updateCenterPos() {
     note.style.left = `${modal.clientWidth / 2 - note.offsetWidth / 2}px`;
     note.style.top = `${modal.clientHeight / 4 - note.offsetHeight / 4}px`;
