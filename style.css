@@ -118,6 +118,7 @@ body {
 }
 .note-title {
   margin-bottom: 0.5em;
+  font-size: 1.25rem;
 }
 .modal {
   pointer-events: none;
