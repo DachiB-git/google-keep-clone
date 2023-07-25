@@ -1,7 +1,8 @@
 # Google Keep Clone
+
 Google Keep Clone made in vanilla js.
 
-Current features
+** Current features **
 * Add note
 * Modify note
 * Remove note
