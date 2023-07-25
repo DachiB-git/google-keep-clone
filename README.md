@@ -13,6 +13,6 @@ Future features
 * Account authentication
 
 To change
-* Migrate to ReactJs :heavy_check_mark:
+* Migrate to ReactJs 
 * Update mobile responsiveness
 * Update note opening animation 
