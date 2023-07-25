@@ -1,4 +1,4 @@
-# google-keep-clone
+# Google Keep Clone
 Google Keep Clone made in vanilla js.
 
 Current features
